@@ -1,0 +1,14 @@
+name: TUTU
+
+on:  [push]
+
+jobs:
+  eventbus_sync_alpha:
+    name: TOTO
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/Eventstore-v5-for-E2E@v1
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
