@@ -12,4 +12,4 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: AlexandreDecollas/Eventstore-v5-for-E2E@v1
+      - uses: AlexandreDecollas/Eventstore-v5-for-E2E@v2
