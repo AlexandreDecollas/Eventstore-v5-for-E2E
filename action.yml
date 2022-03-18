@@ -1,0 +1,6 @@
+# action.yml
+name: 'Run Eventstore v5.x.x'
+description: 'Run Eventstore v5.0.8'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
