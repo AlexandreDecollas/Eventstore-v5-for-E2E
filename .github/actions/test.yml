@@ -1,6 +1,9 @@
 name: TUTU
 
-on:  [push]
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
 
 jobs:
   eventbus_sync_alpha:
@@ -10,5 +13,3 @@ jobs:
 
     steps:
       - uses: actions/Eventstore-v5-for-E2E@v1
-        with:
-          terraform_version: ${{ env.TF_VERSION }}
