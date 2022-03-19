@@ -1,6 +1,9 @@
 # Eventstore v5 for E2E docker action
 
-This action run a fully available evenstore v5.0.8 environment for E2E tests
+This action setup the environment for Eventbus E2E tests
+* Evenstore v5.0.8 
+* Postgresql 
+* Redis 
 
 
-uses: actions/Eventstore-v5-for-E2E@v1
+uses: AlexandreDecollas/Eventstore-v5-for-E2E@v6
