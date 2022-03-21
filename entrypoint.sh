@@ -4,4 +4,4 @@ docker run -d --name eventstore-eventbus-E2E -it -p 2113:2113 -p 1113:1113 event
 
 docker run --platform linux/amd64 -d --name eventbus-e2e-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 
-docker run --platform linux/amd64 -d --name eventbus-e2e-redis -p 2113:2113 -d redis
+docker run --platform linux/amd64 -d --name eventbus-e2e-redis -p 6379:6379 -d redis
